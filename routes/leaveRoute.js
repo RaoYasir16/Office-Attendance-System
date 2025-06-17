@@ -9,7 +9,7 @@ const {
   getMyLeaveRequest,
   viewAllLeaveRequest,
   updateLeaveStatus,
-} = require("../Office-Attendance-System/controllers/leaveController");
+} = require("../controllers/leaveController");
 
 //..........Route For Users............
 router.post("/apply-leave", authMiddleware, authorizeRole("user"), applyLeave);

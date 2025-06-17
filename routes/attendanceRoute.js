@@ -1,5 +1,5 @@
 const express = require("express");
-const { checkIn, checkOut, getAllAttendance, searchAttendance } = require("../Office-Attendance-System/controllers/attendanceController");
+const { checkIn, checkOut, getAllAttendance, searchAttendance } = require("../controllers/attendanceController");
 const { authMiddleware, authorizeRole } = require("../middlewares/authMiddleware");
 
 const router = express.Router()

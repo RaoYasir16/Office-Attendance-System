@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { authMiddleware, authorizeRole } = require("../middlewares/authMiddleware");
-const { getAllUsers, userAttendance, deleteUser} = require("../Office-Attendance-System/controllers/adminController");
+const { getAllUsers, userAttendance, deleteUser} = require("../controllers/adminController");
 
 router.get("/get-all-users",authMiddleware,authorizeRole('admin'),getAllUsers);
 

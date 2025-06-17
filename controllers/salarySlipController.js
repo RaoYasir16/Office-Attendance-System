@@ -1,6 +1,6 @@
-const Attendance = require("../../models/attendanceModel")
-const SalarySlip = require("../../models/salarySlipModel");
-const User = require("../../models/userModel");
+const Attendance = require("../models/attendanceModel")
+const SalarySlip = require("../models/salarySlipModel");
+const User = require("../models/userModel");
 const moment = require("moment");
 
 

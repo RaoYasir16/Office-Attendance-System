@@ -1,6 +1,6 @@
 const dotenv = require("dotenv").config();
 const express = require("express");
-const db = require("./Office-Attendance-System/config/db")
+const db = require("./config/db")
 
 //route import
 const userRoute = require("./routes/userRoute");

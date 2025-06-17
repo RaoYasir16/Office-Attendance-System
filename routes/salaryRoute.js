@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const {generateSalarySlip, getUserSlip, getSlipByMonth} = require("../Office-Attendance-System/controllers/salarySlipController");
+const {generateSalarySlip, getUserSlip, getSlipByMonth} = require("../controllers/salarySlipController");
 const {authMiddleware,authorizeRole} = require("../middlewares/authMiddleware");
 
 
